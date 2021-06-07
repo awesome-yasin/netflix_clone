@@ -1,0 +1,43 @@
+.slider1{
+    width: 500% !important;
+}
+.slider2{
+    width: 500% !important;
+}
+.rec.rec-arrow {
+    color: #673AB7;
+    border: 1px solid #673AB7;
+    
+}
+/* round buttons on hover */
+
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px lightgrey;
+
+}
+button.rec-dot{
+   
+    box-shadow: 0 0 1px 3px rgba(205, 129, 224, 0.5);
+  }
+  
+  @media only screen and (max-width: 600px){
+      
+      .rec.rec-arrow {
+       font-size: 16px;
+       border-width: 1%;
+    }
+  
+   .slider1{
+       width: 300% !important;
+   }
+   .slider2{
+    width: 300% !important;
+}
+  }
